@@ -4,6 +4,8 @@ import checkPropTypes from "check-prop-types";
 
 const setup = (props = {}) => shallow(<Character />);
 
+const setup = (props = {}) => shallow(<Character />);
+
 const findByTestAttr = (wrapper, val) => wrapper.find(`[data-test="${val}"]`);
 
 // Optional function
